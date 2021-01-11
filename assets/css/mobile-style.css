@@ -93,8 +93,18 @@
     }
 }
 
-@media(max-width:360px) {
+@media(max-width:560px) {
     footer .column {
         width: 15rem;
+    }
+
+    .section-1 .row .col-md-6 .panel h2 {
+        margin: .8rem;
+        font-size: larger;
+    }
+
+    .section-1 .row .col-md-6 .panel p {
+        margin: .8rem;
+
     }
 }
