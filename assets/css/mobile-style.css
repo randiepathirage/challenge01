@@ -1,0 +1,100 @@
+@media(max-width:1096px) {
+
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    header .row .col-md-12 {
+        padding: 3rem;
+    }
+
+    header .row .col-md-12 h1 {
+        margin-top: 2em;
+        font-size: xx-large;
+    }
+
+
+    header .row .col-md-12 h5 {
+        font-weight: lighter;
+    }
+
+    .vertical-bar {
+        display: none;
+    }
+
+    .section-1 {
+        overflow-y: auto;
+    }
+
+
+    .section-1 .row .col-md-6 .panel {
+        margin-left: -3rem;
+    }
+
+    .section-1 .pray .d-block img {
+        margin-top: 1vmin;
+        padding-right: 2rem;
+        width: 5rem;
+    }
+
+    .section-1 .pray h5 {
+        font-size: smaller;
+        width: 15rem;
+    }
+
+
+    /*section 2*/
+    .cover {
+        margin: 0;
+    }
+
+    .cover .content>h4 {
+        font-size: medium;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .numbers {
+        margin-top: 15vmin;
+        margin-left: -1rem;
+    }
+
+
+    .numbers .rect {
+        margin-left: 2rem;
+        margin-right: 1rem;
+        margin-top: 6rem;
+
+    }
+
+    /*footer*/
+
+    footer {
+        padding: 14vmin 12vmin;
+    }
+
+
+    footer .column {
+        width: 20rem;
+        margin-bottom: 2rem;
+    }
+
+    footer .column img {
+        width: 4rem;
+    }
+
+
+    footer .column img:last-child {
+        width: 6rem;
+    }
+
+    footer .column img+img {
+        padding: .2em 0.2em;
+    }
+}
+
+@media(max-width:360px) {
+    footer .column {
+        width: 15rem;
+    }
+}
